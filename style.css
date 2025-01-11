@@ -5,6 +5,19 @@ body {
     background-color: #f9f9f9;
 }
 
+.admin-link {
+    display: block;
+    margin: 20px 80% auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    width: 15%;
+    font-weight: bold;
+}
+
 .allowance-tracker {
     display: flex;
     justify-content: space-around;
