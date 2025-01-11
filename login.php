@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($username === ADMIN_USERNAME && password_verify($password, ADMIN_PASSWORD)) {
         $_SESSION['admin_logged_in'] = true;
-        header('Location: admin.php');
+        header('Location: /veckopeng/admin.php');
         exit();
     } else {
         $error = 'Invalid credentials';

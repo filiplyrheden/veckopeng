@@ -11,7 +11,7 @@
 </head>
 
 <header>
-    <a href="/login.php" class="admin-link">Logga in som förälder</a>
+    <a href="/veckopeng/login.php" class="admin-link">Logga in som förälder</a>
 </header>
 
 <body>
