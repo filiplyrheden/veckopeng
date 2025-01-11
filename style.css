@@ -72,3 +72,16 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.admin-controls {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.admin-controls button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
