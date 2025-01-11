@@ -16,6 +16,11 @@ body {
     text-decoration: none;
     width: 15%;
     font-weight: bold;
+    border-radius: 5px;
+}
+
+.admin-link:hover {
+    background-color: #45a049;
 }
 
 .allowance-tracker {
