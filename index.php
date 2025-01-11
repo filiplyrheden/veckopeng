@@ -15,15 +15,25 @@
 </header>
 
 <body>
-
     <main>
         <div class="allowance-tracker">
+            <?php
+            require_once 'config.php';
+            $coins = json_decode(file_get_contents(DB_FILE), true);
+            ?>
+
             <div class="child-column" id="vera-column">
                 <div class="child-header">
                     <img src="assets/vera.jpg" alt="Vera" class="child-photo">
                     <h2>Vera</h2>
                 </div>
-                <div class="coin-grid" id="vera-grid"></div>
+                <div class="coin-grid" id="vera-grid">
+                    <?php
+                    for ($i = 0; $i < $coins['vera']; $i++) {
+                        echo '<div class="coin"></div>';
+                    }
+                    ?>
+                </div>
             </div>
 
             <div class="child-column" id="lasse-column">
@@ -32,13 +42,14 @@
                     <h2>Lasse</h2>
                 </div>
                 <div class="coin-grid" id="lasse-grid">
-                    <div class="coin"></div>
-                    <div class="coin"></div>
+                    <?php
+                    for ($i = 0; $i < $coins['lasse']; $i++) {
+                        echo '<div class="coin"></div>';
+                    }
+                    ?>
                 </div>
-
             </div>
         </div>
-
     </main>
 
     <script src="script.js"></script>
