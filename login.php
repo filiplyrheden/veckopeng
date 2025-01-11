@@ -24,36 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Veckopeng</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        .login-form {
-            max-width: 300px;
-            margin: 50px auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
 
-        .login-form input {
-            width: 100%;
-            margin: 10px 0;
-            padding: 5px;
-        }
-
-        .login-form button {
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .error {
-            color: red;
-            margin-bottom: 10px;
-        }
-    </style>
 </head>
 
 <body>
