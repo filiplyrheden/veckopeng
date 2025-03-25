@@ -11,7 +11,7 @@
 </head>
 
 <header>
-    <a href="/veckopeng/singla-slant-php" id="singla-slant-link">Singla slant</a>
+    <a href="/veckopeng/singla-slant.php" id="singla-slant-link">Singla slant</a>
     <a href="/veckopeng/login.php" id="admin-link">Logga in som förälder</a>
 </header>
 

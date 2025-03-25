@@ -30,7 +30,7 @@ header {
   margin: 20px;
   text-align: center;
   padding: 20px;
-  background-color: #d3ca19;
+  background-color: rgb(222, 189, 7);
   color: white;
   text-decoration: none;
   width: 15%;
@@ -39,7 +39,7 @@ header {
 }
 
 #singla-slant-link:hover {
-  background-color: #b0a815;
+  background-color: goldenrod;
 }
 
 .allowance-tracker {
